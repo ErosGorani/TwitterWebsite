@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    box-sizing: border-box
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,800;1,900&display=swap');
+
+.twitter-background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.twitter-small-bird{
+    height: 50px;
+    position: absolute;
+    top: 125px;
+    left: 1070px;
+}
+
+.container{
+    position: absolute;
+    top: 450px;
+    left: 1075px;
+}
+
+.first-text{
+    font-size: 70px;
+   font-family: 'Archivo', sans-serif;
+    font-weight: 800
+
+
+
+   
+}
+
+.second-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.text{
+    position: absolute;
+    top: 200px;
+    left: 1070px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.google, .Apple, .phone-email{
+    width: 350px;
+    padding: 13px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid;
+    text-align: center;
+    font-size: 17px;
+   font-weight: 700;
+  
+    
+}
+.google:hover{
+    cursor: pointer;
+    background: #d3d3d3 ;
+    
+}
+.Apple:hover{
+    cursor: pointer;
+    background: #d3d3d3;
+}
+.phone-email:hover{
+    cursor: pointer;
+    background: #d3d3d3;
+}
+    .google-icon{
+        width: 24px;
+        height: 24px;
+        top: 10px;
+    position: absolute;
+    left: 60px;
+}
+
+.apple-icon{
+    width: 24px;
+    height: auto;
+    top: 78px;
+    position: absolute;
+    left: 60px;
+
+}
+        
+    
+    
+.paragraph-div{
+    font-size: 15px;
+    position: absolute;
+    top: 650px;
+    left: 1080px;
+}
+
+.terms-of-services, .privacy-policy{
+    
+    color: rgb(27, 149, 224);
+    text-decoration: none;
+
+}
+
+.terms-of-services:hover{
+    text-decoration-line: underline;
+}
+
+.privacy-policy:hover{
+    text-decoration: underline;
+}
+
+.including-cookcies{
+    color: rgb(27, 149, 224);
+    text-decoration: none;
+}
+
+.including-cookcies:hover{
+    text-decoration: underline;
+}
+
+.text-decoration{
+    text-decoration: none;
+    color: black;
+}
+
+.apple-redirect{
+    text-decoration: none;
+    color: black;
+}
+
+.log-in{
+    position: absolute;
+  top: 700px;
+  left: 1080px;
+}
+.text-color{
+    color: rgb(27, 149, 224);
+}
+
+.text-color:hover{
+    cursor: pointer;
+}
+
+.last-div{
+    position: absolute;
+    top: 930px;
+}
+
+.a1{
+color: black;
+margin-right: 13px;
+text-decoration: none;
+}
+
+.a1:hover{
+    cursor: pointer;
+}
+
